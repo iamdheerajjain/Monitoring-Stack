@@ -15,3 +15,20 @@ This project sets up a free and open-source Monitoring Stack using:
 
 ### 📁 Folder Structure
 
+monitoring-stack/
+├── prometheus/
+│   └── prometheus.yml
+│   └── prometheus.service
+├── grafana/
+│   └── dashboard and screenshots
+├── loki/
+│   └── loki-config.yaml
+│   └── loki.service
+├── promtail/
+│   └── promtail-config.yaml
+│   └── promtail.service
+├── node_exporter/
+│   └── node_exporter.service
+├── README.md
+
+
