@@ -1,0 +1,16 @@
+[Unit]
+Description=Loki Log Aggregation System
+After=network.target
+
+[Service]
+Type=simple
+User=root
+ExecStart=/opt/loki -config.file=/opt/loki-config.yaml
+Restart=on-failure
+WorkingDirectory=/opt
+StandardOutput=journal
+StandardError=journal
+LimitNOFILE=1048576
+
+[Install]
+WantedBy=multi-user.target
