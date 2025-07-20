@@ -1,4 +1,4 @@
-# 🔭 Linux Monitoring & Logging Stack — Prometheus + Grafana + Loki
+# 🔭 Linux Monitoring Stack
 
 A fully open-source monitoring and observability stack built on Fedora Linux using:
 
@@ -26,7 +26,11 @@ A fully open-source monitoring and observability stack built on Fedora Linux usi
 
 ## 📸 Screenshot
 
+![Grafana Screenshot](grafana/Dashboard.png)
+---
 ![Grafana Screenshot](grafana/Prometheus.png)
+---
+![Grafana Screenshot](grafana/Loki live Logs.png)
 
 ## 🚀 Quickstart
 
