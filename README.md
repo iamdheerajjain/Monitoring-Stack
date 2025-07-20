@@ -30,7 +30,7 @@ A fully open-source monitoring and observability stack built on Fedora Linux usi
 ---
 ![Grafana Screenshot](grafana/Prometheus.png)
 ---
-![Grafana Screenshot](grafana/Loki live Logs.png)
+![Grafana Screenshot](grafana/Loki-live-Logs.png)
 
 ## 🚀 Quickstart
 
