@@ -26,11 +26,7 @@ A fully open-source monitoring and observability stack built on Fedora Linux usi
 
 ## 📸 Screenshot
 
-> *(Optional — replace with your dashboard screenshot)*
-
-![Grafana Screenshot](assets/grafana-preview.png)
-
----
+![Grafana Screenshot](grafana/Prometheus.png)
 
 ## 🚀 Quickstart
 
