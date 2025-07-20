@@ -1,34 +1,41 @@
-# 🔍 Monitoring + Alerting Stack (Fedora Linux)
+# 🔭 Linux Monitoring & Logging Stack — Prometheus + Grafana + Loki
 
-This project sets up a free and open-source Monitoring Stack using:
+A fully open-source monitoring and observability stack built on Fedora Linux using:
 
-- **Prometheus** for metrics scraping
-- **Grafana** for visualization
-- **Loki + Promtail** for log management
-- **Node Exporter** for Linux system metrics
+- 📊 **Prometheus** — system & service metrics collection
+- 📈 **Grafana** — beautiful dashboards for real-time insights
+- 📚 **Loki** — log aggregation and querying
+- 📨 **Promtail** — logs collection and shipping to Loki
+- 🖥️ **Node Exporter** — exposes system-level hardware + OS metrics
 
-### ✅ Components
+> ✅ Lightweight, fast, modular — perfect for self-hosted DevOps use or college projects.
 
-- **OS**: Fedora Linux
-- **Stack**: Prometheus, Grafana, Loki, Promtail, Node Exporter
-- **Dashboards**: Grafana with Prometheus and Loki datasources
+---
 
-### 📁 Folder Structure
+## 📦 Tech Stack
 
-monitoring-stack/
-├── prometheus/
-│   └── prometheus.yml
-│   └── prometheus.service
-├── grafana/
-│   └── dashboard and screenshots
-├── loki/
-│   └── loki-config.yaml
-│   └── loki.service
-├── promtail/
-│   └── promtail-config.yaml
-│   └── promtail.service
-├── node_exporter/
-│   └── node_exporter.service
-├── README.md
+| Tool           | Purpose                        | Port        |
+|----------------|--------------------------------|-------------|
+| Prometheus     | Metrics scraper & TSDB         | `9090`      |
+| Grafana        | Visual dashboards + alerting   | `3000`      |
+| Loki           | Log aggregation                | `3100`      |
+| Promtail       | Log forwarder for Loki         | —           |
+| Node Exporter  | Linux system metrics           | `9100`      |
 
+---
 
+## 📸 Screenshot
+
+> *(Optional — replace with your dashboard screenshot)*
+
+![Grafana Screenshot](assets/grafana-preview.png)
+
+---
+
+## 🚀 Quickstart
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/<your-username>/monitoring-stack.git
+cd monitoring-stack
