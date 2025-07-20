@@ -31,11 +31,3 @@ A fully open-source monitoring and observability stack built on Fedora Linux usi
 ![Grafana Screenshot](grafana/Prometheus.png)
 ---
 ![Grafana Screenshot](grafana/Loki-live-logs.png)
-
-## 🚀 Quickstart:
-
-### 1. Clone the Repo
-
-```bash
-git clone https://github.com/<your-username>/monitoring-stack.git
-cd monitoring-stack
