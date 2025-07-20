@@ -12,7 +12,7 @@ A fully open-source monitoring and observability stack built on Fedora Linux usi
 
 ---
 
-## 📦 Tech Stack
+## 📦 Tech Stack:
 
 | Tool           | Purpose                        | Port        |
 |----------------|--------------------------------|-------------|
@@ -24,15 +24,15 @@ A fully open-source monitoring and observability stack built on Fedora Linux usi
 
 ---
 
-## 📸 Screenshot
+## 📸 Screenshots:
 
 ![Grafana Screenshot](grafana/Dashboard.png)
 ---
 ![Grafana Screenshot](grafana/Prometheus.png)
 ---
-![Grafana Screenshot](grafana/Loki-live-Logs.png)
+![Grafana Screenshot](grafana/Loki-live-logs.png)
 
-## 🚀 Quickstart
+## 🚀 Quickstart:
 
 ### 1. Clone the Repo
 
